@@ -1,0 +1,39 @@
+{
+  "name": "portal-commons",
+  "group": "micro-portal",
+  "version": "1.0.0",
+  "description": "Commons portal microfrontend!",
+  "scripts": {
+    "start": "webpack-dev-server --port 9001 --hot --host 0.0.0.0",
+    "build": "webpack -p --progress && docker build -t $npm_package_group/$npm_package_name:$npm_package_version ."
+  },
+  "keywords": [],
+  "author": "Rafael Ramos",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "file-loader": "^1.1.11",
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.3.2",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.5",
+    "single-spa": "^4.0.1",
+    "single-spa-react": "^2.8.1"
+  }
+}
