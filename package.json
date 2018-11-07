@@ -1,6 +1,6 @@
 {
   "name": "portal-commons",
-  "group": "micro-portal",
+  "group": "microportal",
   "version": "1.0.0",
   "description": "Commons portal microfrontend!",
   "scripts": {
